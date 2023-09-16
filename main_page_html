@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kevin's Portfolio</title>
+  <style>
+    /* Colors */
+    :root {
+      --lavender: #E6E6FA;
+      --teal: #008080;
+    }
+
+    /* General Styles */
+    body {
+      background-color: var(--lavender);
+      font-family: Arial, sans-serif;
+    }
+
+    header, section {
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: var(--teal);
+      color: white;
+    }
+
+    /* Interactive Features */
+    .project-info {
+      display: none;
+    }
+
+    .project:hover .project-info {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kevin's Portfolio</h1>
+  </header>
+
+  <section id="about-me">
+    <h2>About Me</h2>
+    <p>Your bio here.</p>
+  </section>
+
+  <section id="completed-projects">
+    <h2>Completed Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <div class="project-info">Details about Project 1</div>
+    </div>
+  </section>
+
+  <section id="wips">
+    <h2>Work in Progress</h2>
+    <div class="project">
+      <h3>WIP 1</h3>
+      <div class="project-info">Details about WIP 1</div>
+    </div>
+  </section>
+
+  <section id="some-words">
+    <h2>Some Words</h2>
+    <p>Your thoughts here.</p>
+  </section>
+
+  <script>
+    // Your sophisticated JS features here
+  </script>
+
+</body>
+</html>
